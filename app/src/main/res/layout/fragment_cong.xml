@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8080"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请大哥大姐们输入..."
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="走你" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开扫" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="你就是我最想要的"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="从初中走的现在"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="一起经历了10年"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="这10年之久经历了很多"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="彼此之间都相互了解"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="一直害怕突然失去记忆"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="希望可以抓住"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="每一分钟，没一秒"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="18岁那年，抓到一只蝉"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="便以为抓住了整个夏天"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="没想到蝉说"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="“说不上恨别揪蝉”"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="“别装作感叹”"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="我们继续走下去"
+                android:textColor="#FFFF80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="有什么想说的请扫码告诉我"
+                android:textColor="#FFFF80" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

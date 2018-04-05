@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF1F0"
+    tools:context="com.example.we.MainActivity">
+
+    <ImageView
+android:id="@+id/hongxin"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/hongxin" />
+
+    <ImageView
+        android:id="@+id/mose"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/hongxin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/mose" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="相遇很难，相知更难，相互珍惜"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hongxin"
+        android:layout_toLeftOf="@+id/hongxin"
+        android:layout_toStartOf="@+id/hongxin"
+        android:text="通"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hongxin"
+        android:layout_toEndOf="@+id/hongxin"
+        android:layout_toRightOf="@+id/hongxin"
+        android:text="萌"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hongxin"
+        android:layout_toEndOf="@+id/hongxin"
+        android:layout_toRightOf="@+id/hongxin"
+        android:text="晶"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hongxin"
+        android:layout_toLeftOf="@+id/hongxin"
+        android:layout_toStartOf="@+id/hongxin"
+        android:text="涛"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="彼此"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.we.TwoActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radio_group"></FrameLayout>
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_baidu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/li"
+            android:text="匆匆" />
+
+        <RadioButton
+            android:id="@+id/rb_lunbo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FF0000"
+            android:background="@drawable/jia"
+            android:text="❤" />
+
+        <RadioButton
+            android:background="@drawable/li"
+            android:id="@+id/rb_nanian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="那年" />
+
+    </RadioGroup>
+</RelativeLayout>
